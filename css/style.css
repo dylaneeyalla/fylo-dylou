@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: hsl(219, 30%, 18%);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --dlo: hsl(218, 28%, 13%);
+    --dla: hsl(216, 53%, 9%);
+    --dlu: hsl(219, 30%, 18%);
+    --dli: hsl(176, 68%, 64%);
+    --dle: hsl(198, 60%, 50%);
+    --dlr: hsl(0, 100%, 63%);
+}
+
+header {
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+/*logo*/
+.logo {
+    user-select: none;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #bbbbca;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+
+/*mvt de la barre sous les liens*/
+.navigation a:hover {
+    border-bottom: 2px solid #fff;
+    color: #ffffff;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bocA {
+    margin-top: 2930px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bocA img {
+    width: 790px;
+    margin-left: 80px;
+
+}
+
+.bloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.bloc h1 {
+    text-align: center;
+    width: 64%;
+    flex-wrap: wrap;
+    font-size: 45px;
+    margin: 60px 0;
+}
+
+.bloc h4 {
+    text-align: center;
+    width: 44%;
+    flex-wrap: wrap;
+    font-size: 23px;
+    font-weight: 500;
+
+}
+
+.bloc button {
+    text-align: center;
+    background-color: var(--dli);
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.bloc button:hover {
+    background-color: hsl(177, 56%, 75%);
+    transition: 0.5s;
+}
+
+.base img {
+    width: 1515px;
+    position: relative;
+    margin-top: -300px;
+}
+
+.basef {
+    background-color: var(--dlo);
+    width: 100%;
+    margin-top: -40px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basef .bocD {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.basef .bocD span {
+    margin-top: 90px;
+}
+
+/*
+.container .bocD span img{
+
+}} */
+.basef .bocD span h4 {
+    margin: 17px 0;
+    margin-top: 20px;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.basef .bocD span p {
+    line-height: 20px;
+    width: 380px;
+    font-size: 14px;
+    margin: -5px;
+    color: #d3d3dd;
+}
+
+.place {
+    display: flex;
+    background-color: var(--dlo);
+    width: 1515px;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.place .image {
+    height: 450px;
+}
+
+.place .text h1 {
+    font-size: 45px;
+    width: 550px;
+}
+
+.place .text p {
+    font-size: 15px;
+    width: 550px;
+    margin-top: 25px;
+}
+
+.place .text {
+    display: flex;
+    flex-direction: column;
+    margin: 110px 90px;
+}
+
+.place .text span {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.place .text span:hover {
+    border-bottom: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.place .text span img {
+    margin: -3px 2px;
+}
+
+.fin {
+    display: flex;
+    background-color: var(--dlo);
+    width: 1515px;
+    justify-content: center;
+    padding: 150px 100px;
+}
+
+.fin .apos {
+    position: absolute;
+    margin: -37px 0;
+    margin-left: -1150px;
+}
+
+.fin .perso {
+    width: 370px;
+    padding: 45px 30px 20px;
+    background-color: var(--dlu);
+    margin: 0 20px;
+    z-index: 999;
+}
+
+.fin .perso p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.fin .perso .im {
+    display: flex;
+    margin-top: 30px;
+}
+
+.fin .perso .im img {
+    height: 27px;
+    border-radius: 50%;
+}
+
+.fin .perso .im .txf {
+    margin: 0 10px;
+}
+
+.fin .perso .im .txf h1 {
+    font-size: 12px;
+}
+
+.fin .perso .im .txf p {
+    font-size: 9px;
+}
+
+.div {
+    background-color: var(--dlo);
+    width: 1515px;
+    justify-content: center;
+    padding-top: 150px;
+
+}
+.div .cap{
+    height: 160px;
+}
+
+.asoc {
+    display: flex;
+}
+
+.form {
+    width: 900px;
+    position: absolute;
+    background-color: var(--dlu);
+    color: #ffffff;
+    z-index: 999;
+    margin-top: 5600px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 70px 40px 40px;
+    line-height: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 8px 10px #00000042;
+}
+
+.form h1 {
+    font-size: 35px;
+}
+
+.form p {
+    font-size: 16px;
+    margin: 30px;
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+
+.form input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin: 0px 20px;
+    outline: none;
+    padding: 0 40px;
+}
+
+.form button {
+    text-align: center;
+    background-color: var(--dli);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: hsl(177, 56%, 75%);
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: hsl(0, 0%, 100%);
+    padding: 120px 70px 15px;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+    background: var(--dla);
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 200;
+    transition: 0.5s;
+
+}
+
+footer .foot .foo {
+    width: 120px;
+    margin: 50px 70px;
+}
+
+.boot {
+    height: 200px;
+}
+
+footer .fbi {
+    display: flex;
+}
+footer .foot.A{
+    display: flex;
+}
+footer .foot.A p {
+    width: 350px;
+    font-size: 17px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+footer .foot.A img {
+    height: 20px;
+    margin: 15px 25px;
+}
+footer .foot.B {
+    width: 250px;
+    
+}
+footer .foot.B span {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+footer .foot.B img {
+
+    height: 20px;
+    margin: 0 30px ;
+    
+}
+footer .foot.C p:hover{
+    font-weight: 900;
+    transition: 0.5s;
+}
+footer .foot.D p:hover{
+    font-weight: 900;
+    transition: 0.5s;
+}
+footer .foot.E img {
+    width: 20px;
+    margin: 20px 7px;
+}
+
+footer .bb {
+    display: flex;
+}
+
+footer .bb .foot {
+    margin: 0 50px;
+}
+
+footer .bb .foot p {
+    margin: 7px 0;
+}
+
+
+@media (max-width: 700px) {
+    footer {
+        bottom: unset;
+    }
+
+}
